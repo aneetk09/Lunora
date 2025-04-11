@@ -25,8 +25,8 @@ export function ChatPreview() {
         <div className="max-w-3xl mx-auto bg-gray-900/50 rounded-xl border border-gray-800 overflow-hidden">
           <div className="p-4 bg-gray-800/50 flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="bg-purple-600 rounded-full h-8 w-8 flex items-center justify-center">
-                <span className="font-semibold">L</span>
+              <div className="h-8 w-8 flex items-center justify-center">
+                <img src="logo.png" alt="" srcset="" />
               </div>
               <div>
                 <h3 className="font-medium">Lunora AI</h3>
@@ -39,10 +39,6 @@ export function ChatPreview() {
           </div>
 
           <div className="p-6 min-h-[300px] flex flex-col relative">
-            {/* Small Character Above Input Box */}
-            <div className="absolute -top-10 left-4">
-              <img src="/Character.png" alt="Lunora Character" className="h-10 w-10" />
-            </div>
 
             <div className="bg-gray-800/50 rounded-lg p-4 max-w-[80%] mb-4">
               <p>Hello! How are you feeling today?</p>

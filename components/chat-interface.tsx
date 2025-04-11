@@ -134,9 +134,9 @@ export function ChatInterface() {
         {/* Chat Header */}
         <div className="p-4 border-b border-gray-800 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="bg-purple-600 rounded-full h-8 w-8 flex items-center justify-center">
-              <span className="font-semibold">L</span>
-            </div>
+          <div className="h-8 w-8 flex items-center justify-center">
+                <img src="logo.png" alt="" />
+              </div>
             <div>
               <h3 className="font-medium">Lunora AI</h3>
               <p className="text-xs text-gray-400">Emotional Intelligence Assistant</p>
